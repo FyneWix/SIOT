@@ -7,11 +7,11 @@ Ce projet a été réalisé dans le cadre d'un cours de sécurité IoT à l'Univ
 ## Structure du projet
 Notre projet est organisé en plusieurs modules, chacun ciblant un aspect spécifique de la sécurité IoT :
 
-WIFI/ : Analyse et exploitation des réseaux WiFi, capture de handshakes et techniques de cracking
-SSH/ : Tests de déni de service et contre-mesures pour les connexions SSH
-MQTT/ : Analyse de vulnérabilités du protocole MQTT, notamment des tests DoS
-COAP/ : Implémentation de serveurs CoAP avec différents niveaux de sécurité
-BLE/ : Exploration et analyse de sécurité des appareils Bluetooth Low Energy
+- `WIFI/` : Analyse et exploitation des réseaux WiFi, capture de handshakes et techniques de cracking
+- `SSH/` : Tests de déni de service et contre-mesures pour les connexions SSH
+- `MQTT/` : Analyse de vulnérabilités du protocole MQTT, notamment des tests DoS
+- `COAP/` : Implémentation de serveurs CoAP avec différents niveaux de sécurité
+- `BLE/` : Exploration et analyse de sécurité des appareils Bluetooth Low Energy
 
 ## Méthodologie
 Notre approche s'est articulée autour de plusieurs phases distinctes :
