@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# Le code suivant a été en partiellement généré par un modèle de langage IA.
+
 import datetime
 import logging
 import asyncio

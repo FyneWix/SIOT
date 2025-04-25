@@ -68,4 +68,4 @@ Cependant, nous avons également observé que :
 
 ### Ressource supplémentaire
 
-Au cours de notre exploration, nous avons trouvé une  vidéo un peu fantaisiste sur la vuknérabilité du BLE pour certains sextoys. Cela illustre les défis de sécurité auxquels sont confrontés les appareils connectés. Vous pouvez la visionner au lien suivant : [Potyos - J'ai hacké un s*xtoy](https://youtu.be/03puer6fnGE?si=Xw1eeRbePF3HIh36)
+Au cours de notre exploration, nous avons trouvé une  vidéo un peu fantaisiste sur la vulnérabilité du BLE pour certains sextoys. Cela illustre les défis de sécurité auxquels sont confrontés les appareils connectés. Vous pouvez la visionner au lien suivant : [Potyos - J'ai hacké un s*xtoy](https://youtu.be/03puer6fnGE?si=Xw1eeRbePF3HIh36)
