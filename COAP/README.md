@@ -78,7 +78,7 @@ sudo apt install doxygen
 sudo apt install asciidoc
 ./configure --disable-dtls # Pour la version avec le serveur vulnérable
 # ou
-./configure --enable-dtls # Pour la version DTLS
+ ./configure --enable-dtls --with-tinydtls --disable-shared # Pour la version DTLS
 sudo make
 sudo make install
 sudo make all
@@ -103,7 +103,11 @@ min_password"}' coap://192.168.2.76:5683/auth
 
 # Requête avec token d'authentification
 ./coap-client -m get coap://192.168.2.76:5683/sensors/temperature?token
-=votre_token_ici"
+=votre_token_ici
+
+# Requête sur le serveur DTLS
+./coap-server -A 0.0.0.0 -k 1234 # Pour le serveur DTLS
+./coap-client -m get coaps://192.168.2.76/time -k 1234 -u CoAP # Pour le client DTLS
 ```
 
 ## Comparaison des fonctionnalités de sécurité
